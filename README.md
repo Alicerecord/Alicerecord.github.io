@@ -9,6 +9,8 @@ A responsive, accessible static portfolio for **Alice Record**. It uses plain HT
 3. Adjust colors, type, and layout in `styles.css`. The Google Fonts are optional; the page falls back to generic sans-serif and monospace fonts if they cannot load.
 4. Preview locally by opening `index.html` in a browser, or serve the repository root with any static file server.
 
+Add your CV PDF as `assets/alice-record-cv.pdf` for the **Download CV** link in the hero to work. Replace this file whenever you update your CV.
+
 The Project 01 video is stored at `assets/videos/project-01-smart-insole.mp4`. Replace that file to update the video shown in the first slideshow slide. The materials research, electronics objectives, and final design images are stored at `assets/images/project-01-materials-research.png` (slide 02), `assets/images/project-01-electronics-objectives.png` (slide 03), and `assets/images/project-01-final-design.png` (slide 04); replace a file to update its image.
 
 To add more Project 01 slides, duplicate a `.carousel-slide` block inside `.carousel-slides` in `index.html`. Set its `data-slide-label` to a short description and replace the placeholder with an image or video. The counter and accessible slide numbering update automatically.

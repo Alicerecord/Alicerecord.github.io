@@ -55,6 +55,10 @@ h1 span, h2 span { color: #81877b; }
 .button-dark:hover { background: var(--green-soft); transform: translateY(-2px); }
 .button-dark span { color: #e6b8b8; font-size: 16px; }
 .text-link { display: inline-block; color: var(--ink); font-size: 12px; font-weight: 600; text-decoration: none; }
+.cv-link { display: inline-flex; min-height: 36px; align-items: center; gap: 14px; margin-top: 15px; padding: 0 12px; border: 1px solid #8a907c; color: #41492f; font-family: var(--mono); font-size: 9px; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; transition: background .2s ease, border-color .2s ease; }
+.cv-link span { color: var(--accent); font-size: 13px; }
+.cv-link:hover { border-color: var(--green); background: #e8c8ce80; }
+.cv-link:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 .hero-meta { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 45px; color: #5f665d; font-size: 9px; }
 
 .section-label { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--line); color: #5f665d; font-size: 9px; }
